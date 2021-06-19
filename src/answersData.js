@@ -10,6 +10,7 @@ const answersData = [
     upvotes: 55,
     downvotes: 3,
     comments: 5,
+    quality: 0.5
   },
   {
     _id: "2",
@@ -22,6 +23,7 @@ const answersData = [
     upvotes: 55,
     downvotes: 3,
     comments: 6,
+    quality: 0.5
   },
   {
     _id: "3",
@@ -34,7 +36,8 @@ const answersData = [
     views: 500,
     upvotes: 55,
     downvotes: 3,
-    comments:10,
+    comments: 10,
+    quality: 0.5
   },
   {
     _id: "4",
@@ -48,6 +51,7 @@ const answersData = [
     upvotes: 55,
     downvotes: 3,
     comments: 2,
+    quality: 0.7
   }
 ];
 
