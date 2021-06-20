@@ -33,7 +33,7 @@ function Header() {
           <LinkContainer to="/profile">
             <i className="fas fa-user"></i>
           </LinkContainer>
-          <i class="fas fa-globe"></i>
+          <i className="fas fa-globe"></i>
           <Button className="AddQueBtn" color="secondary">
             AddQue
           </Button>
