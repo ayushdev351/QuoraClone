@@ -3,16 +3,20 @@ import styled from "styled-components";
 import Header from "./Components/Header.js";
 import LeftSide from "./Components/LeftSide.js";
 import MainBody from "./Components/Main.js";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <Body>
-        <LeftSide />
-        <MainBody />
-      </Body>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Body>
+          <LeftSide />
+          <Route path="/" component={MainBody} exact />
+          {/* <Route path="/spaces" component = {Spaces} /> */}
+        </Body>
+      </div>
+    </Router>
   );
 }
 
@@ -21,4 +25,3 @@ const Body = styled.div`
   height: 100vh;
   padding-top: 60px;
 `;
-

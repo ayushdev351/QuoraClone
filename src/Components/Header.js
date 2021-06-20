@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Button } from "reactstrap";
+import { LinkContainer } from "react-router-bootstrap";
 
 function Header() {
   return (
@@ -10,17 +11,28 @@ function Header() {
           <span>Quora</span>
         </NavbarLeft>
         <NavbarCenter>
-          <i className="fas fa-home"></i>
-          <i className="far fa-edit"></i>
-          <i className="fas fa-users"></i>
-          <i className="fas fa-bell"></i>
+          <LinkContainer to="/" exact>
+            <i className="fas fa-home"></i>
+          </LinkContainer>
+          <LinkContainer to="/questions">
+            <i className="far fa-edit"></i>
+          </LinkContainer>
+          <LinkContainer to="/spaces">
+            <i className="fas fa-users"></i>
+          </LinkContainer>
+          <LinkContainer to="/notifications">
+            <i className="fas fa-bell"></i>
+          </LinkContainer>
+
           <NavbarSearch>
             <i className="fas fa-search search"></i>
             <input type="text" placeholder="Search Quora"></input>
           </NavbarSearch>
         </NavbarCenter>
         <NavbarRight className="NavbarRight">
-          <i class="fas fa-user"></i>
+          <LinkContainer to="/profile">
+            <i className="fas fa-user"></i>
+          </LinkContainer>
           <i class="fas fa-globe"></i>
           <Button className="AddQueBtn" color="secondary">
             AddQue
