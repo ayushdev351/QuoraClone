@@ -7,7 +7,7 @@ import LeftSide from "./Components/LeftSide.js";
 import MainBody from "./Components/Main.js";
 
 import Spaces from "./Components/Spaces.js";
-import Questions from "./Components/Questions.js";
+import Questions from "./Components/Question/Questions.js";
 import Notifs from "./Components/Notifications.js";
 import Profile from "./Components/Profile.js";
 

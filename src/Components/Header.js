@@ -24,7 +24,7 @@ function Header() {
             <i className="fas fa-bell"></i>
           </LinkContainer>
 
-          <NavbarSearch>
+          <NavbarSearch class="NavbarSearch">
             <i className="fas fa-search search"></i>
             <input type="text" placeholder="Search Quora"></input>
           </NavbarSearch>

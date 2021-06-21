@@ -47,7 +47,7 @@ button {
 }
 
 @media (max-width: 800px) {
-  input {
+  i + input {
     display: none;
   }
 
