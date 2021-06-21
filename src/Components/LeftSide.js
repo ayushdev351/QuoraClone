@@ -1,9 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
+import Wrapper from "./Helpers/Wrapper.js";
+
 function LeftSide() {
   return (
-    <>
+    <Wrapper>
       <Lside>
         <LsideHead>
           <p
@@ -81,7 +83,7 @@ function LeftSide() {
           <p>India</p>
         </LsideMainContent>
       </Lside>
-    </>
+    </Wrapper>
   );
 }
 

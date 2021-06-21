@@ -3,9 +3,11 @@ import styled from "styled-components";
 import { Button } from "reactstrap";
 import { LinkContainer } from "react-router-bootstrap";
 
+import Wrapper from "./Helpers/Wrapper.js";
+
 function Header() {
   return (
-    <>
+    <Wrapper>
       <Navbar>
         <NavbarLeft>
           <span>Quora</span>
@@ -39,7 +41,7 @@ function Header() {
           </Button>
         </NavbarRight>
       </Navbar>
-    </>
+    </Wrapper>
   );
 }
 
