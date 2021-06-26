@@ -10,6 +10,7 @@ import Spaces from "./Components/Spaces.js";
 import Questions from "./Components/Question/Questions.js";
 import Notifs from "./Components/Notifications.js";
 import Profile from "./Components/Profile.js";
+import Login from "./Components/Login.js";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/spaces" component={Spaces} />
           <Route path="/notifications" component={Notifs} />
           <Route path="/profile/" component={Profile} />
+          <Route path="/Login" component={Login} />
         </Body>
       </div>
     </Router>

@@ -32,7 +32,7 @@ function Header() {
           </NavbarSearch>
         </NavbarCenter>
         <NavbarRight className="NavbarRight">
-          <LinkContainer to="/profile">
+          <LinkContainer to="/Login">
             <i className="fas fa-user"></i>
           </LinkContainer>
           <i className="fas fa-globe"></i>
